@@ -1,0 +1,152 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.myNav {
+  background: blue;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+}
+
+.myNav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.myNav li {
+  list-style: none;
+}
+
+.myNav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.myNav a:hover {
+  text-decoration: underline;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  background: url(../../IMAGES2/background1.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#slides {
+  display: flex;
+  max-width: 100%;
+  position: relative;
+  overflow-x: hidden;
+  margin: 50px auto;
+}
+
+#images {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  max-width: 300%;
+  /* transform: translateX(-115%); */
+}
+
+#column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+#image {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  height: 500px;
+}
+
+#image img {
+  width: 95%;
+  height: 95%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+#column p {
+  font-size: 3rem;
+  color: red;
+  text-align: center;
+}
+
+#column div {
+  display: flex;
+}
+
+#column div button {
+  font-size: 2rem;
+  color: white;
+  padding: 20px 40px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  transition: 0.5s ease;
+  border-radius: 10px;
+}
+
+#column div #followBtn {
+  background: hsl(120, 100%, 25%);
+}
+
+#column div #followBtn:hover {
+  background: hsl(120, 100%, 35%);
+  padding: 20px 60px;
+}
+
+#column div #hideBtn {
+  background: hsl(0, 100%, 50%);
+}
+
+#column div #hideBtn:hover {
+  background: hsl(0, 100%, 60%);
+  padding: 20px 60px;
+}
+
+#controls button {
+  position: absolute;
+  top: 30%;
+  font-size: 2rem;
+  color: white;
+  background: hsl(240, 100%, 50%);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 30px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: ease 0.5s;
+}
+
+#controls button:hover {
+  background: hsl(240, 100%, 60%);
+}
+
+#controls #backBtn {
+  left: 0;
+}
+
+#controls #nextBtn {
+  right: 0;
+}
