@@ -1,0 +1,82 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.myNav{
+    background: blue;
+    padding: 20px;
+}
+.myNav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.myNav li{
+    list-style: none;
+}
+
+.myNav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 3rem;
+    cursor: pointer;
+}
+.myNav a:hover{
+    text-decoration: underline;
+}
+
+#container{
+    background: #746161;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    height: 100vh;
+}
+#userInput{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#userInput label{
+    font-size: 2rem;
+    margin-right: 20px;
+}
+#userInput input{
+    height: 40px;
+    width: 300px;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+#userInput button{
+    font-size: 2rem;
+    color: white;
+    background: hsl(120, 100%, 25%);
+    cursor: pointer;
+    padding: 20px 40px;
+    margin: auto 20px;
+    border-radius: 10px;
+    border: none;
+    transition: ease 0.5s;
+}
+#userInput button:hover{
+    background: hsl(120, 100%, 35%);
+    padding: 20px 50px;
+}
+#userInput button:active{
+    background: hsl(120, 100%, 45%);
+    padding: 20px 60px;
+}
+#display{
+    display: flex;
+    flex-direction: column;
+}
+#display p{
+    font-size: 3rem;
+    color: black;
+    margin: 0;
+    margin-bottom: 10px;
+}
