@@ -1,0 +1,108 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.myNav{
+    background: blue;
+    padding: 20px;
+}
+.myNav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.myNav li{
+    list-style: none;
+}
+
+.myNav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 3rem;
+    cursor: pointer;
+}
+.myNav a:hover{
+    text-decoration: underline;
+}
+
+body{
+    width: 100%;
+}
+.objects{
+    background: #e7cccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+.myForm{
+    background: hsl(0, 0%, 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.myUser{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    padding: 50px;
+}
+.myLabels{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+label{
+    font-size: 2rem;
+    margin: 25px 0;
+}
+.myInputs{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+input{
+    padding: 10px;
+    margin: 15px 10px;
+    font-size: 1.5rem;
+    border-style: solid;
+    height: 40px;
+}
+.myBtn{
+    font-size: 2rem;
+    color: #fff;
+    background: hsl(240, 100%, 50%);
+    cursor: pointer;
+    border: none;
+    padding: 20px 40px;
+    margin: 20px;
+    max-width: fit-content;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+.myBtn:hover{
+    background: hsl(240, 100%, 60%);
+    padding: 20px 50px;
+}
+
+
+.myTexts{
+    background: rgb(54, 131, 54);
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.myTexts div{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.myTexts div p{
+    font-size: 3rem;
+    color: yellow;
+    margin: 5px;
+}
