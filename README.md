@@ -1,2 +1,2 @@
 # JSPROJECT3
-This is my first JAVASCRIPT project
+This is my Third JAVASCRIPT project
